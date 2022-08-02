@@ -1,0 +1,28 @@
+.advantage {
+    display: flex;
+    gap: 30px;
+}
+
+.advantage__title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.advantage__text {
+    line-height: 1.71;
+}
+
+.advantage__box {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
